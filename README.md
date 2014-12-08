@@ -10,7 +10,8 @@
 - Install zsh, wget, gcc, vim, git
 - Install [rbenv](https://github.com/sstephenson/rbenv)
 - Install [a Ruby version](https://github.com/sstephenson/rbenv#installing-ruby-versions) (last one I used was `2.1.5`)
-  - Set a [global Ruby version](https://github.com/sstephenson/rbenv#rbenv-global)
+- Set a [global Ruby version](https://github.com/sstephenson/rbenv#rbenv-global)
+- Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) (`curl -L http://install.ohmyz.sh | sh`)
 
 ### 2. Secure Git(Hub) access
 
