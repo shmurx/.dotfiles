@@ -8,10 +8,10 @@ Note that these configurations and checklist are for a macbook.
 ### 1. Download everything
 
 - Install [homebrew package manager](http://brew.sh/) (`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`)
-- Install the most essential: __zsh, wget, gcc, vim, git__
+- Install the most essential tools: __zsh, wget, gcc, vim, git__
+- Install [ghc](https://www.haskell.org/ghc/), [cabal](https://www.haskell.org/cabal/)
 - Install [rbenv](https://github.com/sstephenson/rbenv)
 - Install [a Ruby version](https://github.com/sstephenson/rbenv#installing-ruby-versions) (last one I used was `2.1.5`)
-- Install [ghc](https://www.haskell.org/ghc/)
 - Set a [global Ruby version](https://github.com/sstephenson/rbenv#rbenv-global)
 - Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) (`curl -L http://install.ohmyz.sh | sh`)
 
@@ -24,6 +24,7 @@ Note that these configurations and checklist are for a macbook.
 
 - Run `sh bootstrap.sh`
 - **This will overwrite files. Be careful!**
+- This currently just works for OS X.
 
 ## Use it yourself
 
