@@ -78,3 +78,4 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 alias git='LC_ALL=de_DE git'
 alias c="clear"
+alias hi="ghci"
