@@ -26,6 +26,13 @@ Note that these configurations and checklist are for a macbook.
 - **This will overwrite files. Be careful!**
 - This currently just works for OS X.
 
+### 4. Rails
+
+- `gem install bundle`
+- `brew install mysql`
+- go to rails project folder
+- `bundle install`
+
 ## Use it yourself
 
 Fork this repo, or just copy-paste things you need, and make it your own. **Please be sure to change your `.gitconfig` name and email address though!**
