@@ -74,6 +74,7 @@ export EDITOR='vim'
 alias gs="git status"
 alias ga="git add -A"
 alias gd="git diff"
+alias gp="git push"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 alias git='LC_ALL=de_DE git'
