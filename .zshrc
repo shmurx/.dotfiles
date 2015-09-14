@@ -75,8 +75,7 @@ alias gs="git status"
 alias ga="git add -A"
 alias gd="git diff"
 alias gp="git push"
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+
 alias git='LC_ALL=de_DE git'
 alias c="clear"
 alias hi="ghci"
@@ -86,5 +85,5 @@ export DOCKER_TLS_VERIFY="1"
 export DOCKER_HOST="tcp://192.168.99.100:2376"
 export DOCKER_CERT_PATH="/Users/magnus/.docker/machine/machines/default"
 export DOCKER_MACHINE_NAME="default"
-# Run this command to configure your shell: 
+# Run this command to configure your shell:
 eval "$(docker-machine env default)"

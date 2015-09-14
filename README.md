@@ -10,9 +10,8 @@ Note that these configurations and checklist are for a macbook.
 - Install [homebrew package manager](http://brew.sh/) (`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`)
 - Install the most essential tools: __zsh, wget, gcc, vim, git__
 - Install [ghc](https://www.haskell.org/ghc/), [cabal](https://www.haskell.org/cabal/)
-- Install [rbenv](https://github.com/sstephenson/rbenv)
-- Install [a Ruby version](https://github.com/sstephenson/rbenv#installing-ruby-versions) (last one I used was `2.1.5`)
-- Set a [global Ruby version](https://github.com/sstephenson/rbenv#rbenv-global)
+- Install [rvm](https://rvm.io/)
+- Install [a Ruby version](https://rvm.io/rvm/basics) (last one I used was `2.2.1`)
 - Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) (`curl -L http://install.ohmyz.sh | sh`)
 
 ### 2. Secure Git(Hub) access
@@ -29,7 +28,6 @@ Note that these configurations and checklist are for a macbook.
 ### 4. Rails
 
 - `gem install bundle`
-- `brew install mysql`
 - go to rails project folder
 - `bundle install`
 
