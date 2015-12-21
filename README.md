@@ -12,7 +12,7 @@ Note that these configurations and checklist are for a macbook.
 - Install [ghc](https://www.haskell.org/ghc/), [cabal](https://www.haskell.org/cabal/)
 - Install [rvm](https://rvm.io/)
 - Install [a Ruby version](https://rvm.io/rvm/basics) (last one I used was `2.2.1`)
-- Install [oh-my-zsh](https://github.com/oh-my-fish/oh-my-fish/) (`curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish`)
+- Install [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish/) (`curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish`)
 - Install Agnoster Theme and [meslo Font](https://github.com/powerline/fonts/blob/master/Meslo/Meslo%20LG%20M%20DZ%20Regular%20for%20Powerline.otf)
 
 ### 2. Secure Git(Hub) access
