@@ -7,24 +7,24 @@ Note that these configurations and checklist are for a macbook.
 
 ### 1. Download everything
 
-- Install [homebrew package manager](http://brew.sh/) (`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`)
-- Install the most essential tools: __fish, wget, gcc, vim, git__
-- Install [ghc](https://www.haskell.org/ghc/), [cabal](https://www.haskell.org/cabal/)
+- Install the most essential tools: __fish, gcc, nvim, git__
+- Install [ghc](https://www.haskell.org/ghc/), [cabal](https://www.haskell.org/cabal/), [stack](https://docs.haskellstack.org/en/stable/README/)
 - Install [rvm](https://rvm.io/)
-- Install [a Ruby version](https://rvm.io/rvm/basics) (last one I used was `2.2.1`)
+- Install [a Ruby version](https://rvm.io/rvm/basics) (last one I used was
+  `2.3.0`)
 - Install [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish/) (`curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish`)
-- Install Agnoster Theme and [meslo Font](https://github.com/powerline/fonts/blob/master/Meslo/Meslo%20LG%20M%20DZ%20Regular%20for%20Powerline.otf)
+- Install Agnoster Theme and [Powerline Compatible
+  Fonts](https://github.com/powerline/fonts)
 
 ### 2. Secure Git(Hub) access
 
 - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
 - [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled
 
-### 3. Copy dotfiles
+### 3. Setup nvim
 
-- Run `sh bootstrap.sh`
-- **This will overwrite files. Be careful!**
-- This currently just works for OS X.
+- VimPlug should work out of the box if you copy the files.
+- One `:PlugInstall` and you should be all set.
 
 ### 4. Rails
 
