@@ -13,6 +13,10 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'neovimhaskell/haskell-vim'
 Plug 'tpope/vim-commentary'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-surround'
+Plug 'pangloss/vim-javascript'
+Plug 'tpope/vim-repeat'
+
 
 call plug#end()
 
