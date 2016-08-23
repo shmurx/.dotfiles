@@ -8,12 +8,12 @@ Note that these configurations and checklist are for a macbook.
 ### 1. Download everything
 
 - Install the most essential tools: __fish, gcc, nvim, git__
-- Install [ghc](https://www.haskell.org/ghc/), [cabal](https://www.haskell.org/cabal/), [stack](https://docs.haskellstack.org/en/stable/README/)
+- Install [stack](https://docs.haskellstack.org/en/stable/README/)
 - Install [rvm](https://rvm.io/)
 - Install [a Ruby version](https://rvm.io/rvm/basics) (last one I used was
   `2.3.0`)
 - Install [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish/) (`curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish`)
-- Install Agnoster Theme and [Powerline Compatible
+- Install [Powerline Compatible
   Fonts](https://github.com/powerline/fonts)
 
 ### 2. Secure Git(Hub) access
@@ -32,6 +32,8 @@ Note that these configurations and checklist are for a macbook.
 - go to rails project folder
 - `bundle install`
 
-## Use it yourself
+## Install and use it yourself
 
-Fork this repo, or just copy-paste things you need, and make it your own. **Please be sure to change your `.gitconfig` name and email address though!**
+- `sh install.sh` should do the job. Nvim files are symlinked, the rest is just
+  copied.
+- Fork this repo, or just copy-paste things you need, and make it your own. **Please be sure to change your `.gitconfig` name and email address though!**
