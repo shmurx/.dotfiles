@@ -16,7 +16,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-surround'
 Plug 'pangloss/vim-javascript'
 Plug 'tpope/vim-repeat'
-
+Plug 'hynek/vim-python-pep8-indent'
 
 call plug#end()
 

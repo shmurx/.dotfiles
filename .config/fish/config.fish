@@ -13,6 +13,7 @@ function fish_greeting
 end
 rvm default
 set PATH ~/bin $PATH
+set PATH ~/anaconda3/bin $PATH
 set --export EDITOR nvim
 alias vim=nvim
 rvm default
