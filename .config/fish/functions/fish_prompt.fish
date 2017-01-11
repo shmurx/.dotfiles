@@ -1,1 +1,1 @@
-/home/cypher/.local/share/omf/themes/agnoster/fish_prompt.fish
+/home/magnus/.local/share/omf/themes/agnoster/fish_prompt.fish
