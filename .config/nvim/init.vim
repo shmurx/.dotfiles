@@ -4,19 +4,23 @@ let maplocalleader = ','
 " Plugins
 call plug#begin('~/.config/nvim/plugged')
 
-Plug 'ctrlpvim/ctrlp.vim'
+" visual
+Plug 'tomasr/molokai'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+" speed
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
-Plug 'tomasr/molokai'
-Plug 'vim-ruby/vim-ruby'
-Plug 'neovimhaskell/haskell-vim'
-Plug 'tpope/vim-commentary'
 Plug 'terryma/vim-multiple-cursors'
-Plug 'tpope/vim-surround'
-Plug 'pangloss/vim-javascript'
+Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
+" language-specific
 Plug 'hynek/vim-python-pep8-indent'
+Plug 'neovimhaskell/haskell-vim'
+Plug 'pangloss/vim-javascript'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-surround'
+Plug 'vim-ruby/vim-ruby'
 
 call plug#end()
 
