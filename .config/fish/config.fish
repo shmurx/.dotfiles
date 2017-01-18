@@ -11,9 +11,8 @@ source $OMF_PATH/init.fish
 function fish_greeting
   fortune
 end
-rvm default
 set PATH ~/bin $PATH
 set PATH ~/anaconda3/bin $PATH
 set --export EDITOR nvim
 alias vim=nvim
-rvm default
+status --is-interactive; and source (rbenv init -|psub)
