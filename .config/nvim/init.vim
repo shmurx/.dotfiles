@@ -1,13 +1,11 @@
 let mapleader = ','
 let maplocalleader = ','
-
 " Plugins
 call plug#begin('~/.config/nvim/plugged')
 
 " visual
-Plug 'tomasr/molokai'
+Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 " speed
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
@@ -17,12 +15,19 @@ Plug 'tpope/vim-repeat'
 " language-specific
 Plug 'hynek/vim-python-pep8-indent'
 Plug 'neovimhaskell/haskell-vim'
+Plug 'tpope/vim-surround'
+" language-specific/rails
 Plug 'pangloss/vim-javascript'
 Plug 'tpope/vim-rails'
-Plug 'tpope/vim-surround'
+Plug 'tpope/vim-haml'
+Plug 'tpope/vim-cucumber'
 Plug 'vim-ruby/vim-ruby'
+Plug 'keith/rspec.vim'
 
 call plug#end()
+
+:nnoremap <C-l> :bnext<CR>
+:nnoremap <C-h> :bprevious<CR>
 
 " air-line
 let g:airline_powerline_fonts = 1
@@ -43,8 +48,8 @@ let g:airline#extensions#tabline#enabled = 1
 
 " Colors
 set background=dark
-colorscheme molokai
-:let g:airline_theme='papercolor'
+colorscheme gruvbox
+:let g:airline_theme='gruvbox'
 
 " General
 set number	" Show line numbers
