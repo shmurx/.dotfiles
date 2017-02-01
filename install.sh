@@ -14,7 +14,7 @@ then
 
   echo "symlink tmuxinator projects..."
   rm -rf ~/.tmuxinator
-  ln -s ~/dotfiles/.tmuxinator/ ~/.tmuxinator/
+  ln -s ~/dotfiles/.tmuxinator/ ~/
 
   echo "setup your git config..."
   rm ~/.gitconfig
