@@ -12,6 +12,10 @@ then
   rm -rf ~/.config/fish
   ln -s ~/dotfiles/.config/fish/ ~/.config/
 
+  echo "symlink tmuxinator projects..."
+  rm -rf ~/.tmuxinator
+  ln -s ~/dotfiles/.tmuxinator/ ~/.tmuxinator/
+
   echo "setup your git config..."
   rm ~/.gitconfig
   cp .gitconfig ~/.gitconfig

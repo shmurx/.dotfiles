@@ -1,0 +1,22 @@
+# ~/.tmuxinator/rails.yml
+
+name: rails
+# Runs before everything. Use it to start daemons etc.
+# pre: sudo /etc/rc.d/mysqld start
+
+tartup_window: editor
+
+windows:
+  - nvim: nvim
+  - tests: geordi tests
+  - repl:
+      layout: even-horizontal
+      panes:
+        - irb
+        - geordi console
+  - server:
+      layout: even-horizontal
+      panes:
+        - geordi server
+        - tail -f log/development.log
+  - server shell: geordi shell staging
