@@ -1,2 +1,5 @@
 .config/fish/fish_history
 .config/nvim/plugged/*
+.config/fish/fishd.*
+.config/nvim/.*
+
