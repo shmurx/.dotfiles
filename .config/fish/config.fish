@@ -8,11 +8,16 @@ set -q XDG_DATA_HOME
 
 # Load oh-my-fish configuration.
 source $OMF_PATH/init.fish
+# greeting
 function fish_greeting
   fortune
 end
+# anaconda3
 set PATH ~/bin $PATH
 set PATH ~/anaconda3/bin $PATH
+# nvim
 set --export EDITOR nvim
 alias vim=nvim
+# rbenv
+set PATH ~/.rbenv/bin $PATH
 status --is-interactive; and source (rbenv init -|psub)
