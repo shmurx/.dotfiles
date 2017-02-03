@@ -12,6 +12,12 @@ then
   rm -rf ~/.config/fish
   ln -s ~/dotfiles/.config/fish/ ~/.config/
 
+  echo "symlink i3..."
+  rm -rf ~/.config/i3
+  rm -rf ~/.config/i3status
+  ln -s ~/dotfiles/.config/i3/ ~/.config/
+  ln -s ~/dotfiles/.config/i3status/ ~/.config/
+
   echo "symlink tmuxinator projects..."
   rm -rf ~/.tmuxinator
   ln -s ~/dotfiles/.tmuxinator/ ~/
