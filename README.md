@@ -1,4 +1,5 @@
 # Dotfiles
+![screenshot of my dotfiles](http://i.imgur.com/dHayGFr.png)
 
 **Dotfiles** help me keep my configuration files in one place, so if I change hardware, my config stays same.
 Note that these configurations and checklist are for Ubuntu.
@@ -9,8 +10,8 @@ It contains my personal configurations for the following tools (excerpt):
 - urxvt
 - fish
 - nvim
-I plan on symlinking everything or using GNU stow in the future. Maybe also add
-some screenshots.
+
+I plan on symlinking everything or using GNU stow in the future.
 
 ## Checklist
 
