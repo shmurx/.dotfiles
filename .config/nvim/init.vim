@@ -23,6 +23,7 @@ Plug 'tpope/vim-haml'
 Plug 'tpope/vim-cucumber'
 Plug 'vim-ruby/vim-ruby'
 Plug 'keith/rspec.vim'
+Plug 'tpope/vim-endwise'
 
 call plug#end()
 
