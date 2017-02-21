@@ -12,9 +12,9 @@ source $OMF_PATH/init.fish
 function fish_greeting
   fortune
 end
-# anaconda3
+# anaconda2
 set PATH ~/bin $PATH
-set PATH ~/anaconda3/bin $PATH
+set PATH ~/anaconda2/bin $PATH
 # nvim
 set --export EDITOR nvim
 alias vim=nvim
