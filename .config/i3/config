@@ -44,6 +44,9 @@ bindsym $mod+Shift+q kill
 # lock
 bindsym $mod+q exec bash dotfiles/.i3lock
 
+# dual monitor
+exec --no-startup-id dual-screen
+
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
