@@ -85,7 +85,7 @@ nmap s <Plug>(easymotion-overwin-f)
 let g:EasyMotion_smartcase = 1
 map / <Plug>(easymotion-sn)
 omap / <Plug>(easymotion-tn)
-map . :CtrlPTag<cr>
+map <C-c> :CtrlPTag<cr>
 
 map n <Plug>(easymotion-next)
 
