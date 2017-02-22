@@ -20,6 +20,7 @@ Plug 'tpope/vim-surround'
 Plug 'pangloss/vim-javascript'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-haml'
+Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-cucumber'
 Plug 'vim-ruby/vim-ruby'
 Plug 'keith/rspec.vim'
@@ -84,5 +85,10 @@ nmap s <Plug>(easymotion-overwin-f)
 let g:EasyMotion_smartcase = 1
 map / <Plug>(easymotion-sn)
 omap / <Plug>(easymotion-tn)
+map . :CtrlPTag<cr>
 
 map n <Plug>(easymotion-next)
+
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
