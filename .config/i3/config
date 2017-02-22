@@ -45,7 +45,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+q exec bash dotfiles/.i3lock
 
 # dual monitor
-exec --no-startup-id dual-screen
+exec --no-startup-id bash dotfiles/.i3dual
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
