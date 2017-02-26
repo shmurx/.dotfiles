@@ -17,6 +17,9 @@ exec --no-startup-id nextcloud
 
 set $mod Mod4
 
+# compton
+exec --no-startup-id compton -c -r 16 -l -24 -t -12 -G -b
+
 # rofi
 bindsym $mod+d exec rofi -terminal urxvt -show run
 

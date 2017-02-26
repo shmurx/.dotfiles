@@ -3,15 +3,23 @@
 
 **Dotfiles** help me keep my configuration files in one place, so if I change hardware, my config stays same.
 Note that these configurations and checklist are for Ubuntu.
-It contains my personal configurations for the following tools (excerpt):
-- git
-- tmux
-- i3
-- urxvt
-- fish
-- nvim
 
-I plan on symlinking everything or using GNU stow in the future.
+Current setup:
+
+purpose|tool
+-----|-----
+OS|Ubuntu 16.04
+shell|fish with omf
+WM|i3-gaps
+compositor|compton
+terminal|URxvt
+editor|neovim
+terminal mutliplexer|tmux
+
+## To Do
+
+- use GNU Stow
+- use polybar
 
 ## Checklist
 
@@ -19,7 +27,7 @@ I plan on symlinking everything or using GNU stow in the future.
 
 - Clone this repository to `~/dotfiles`
 - Install these tools:
-  - fish, git, i3, rxvt, tmux, tmuxinator, feh, scrot (`sudo apt-get install fish git-core i3 rxvt-unicode-256color tmux tmuxinator feh scrot`)
+  - fish, git, i3, rxvt, tmux, tmuxinator, feh, scrot, compton (`sudo apt-get install fish git-core i3 rxvt-unicode-256color tmux tmuxinator feh scrot compton`)
   - [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim#ubuntu)
 - Download, compile and install
   [i3gaps](https://github.com/Airblader/i3/wiki/Compiling-&-Installing)
@@ -40,5 +48,5 @@ I plan on symlinking everything or using GNU stow in the future.
 
 ### 4. Install and use it yourself
 
-- `bash install.sh` should do the job. nvim, fish, i3 and tmuxinator files are symlinked, the rest is just copied **and will delete existing files**.
+- `./install.sh` should do the job. nvim, fish, i3 and tmuxinator files are symlinked, the rest is just copied **and will delete existing files**.
 - Fork this repo, or just copy-paste things you need, and make it your own. **Please be sure to change your `.gitconfig` name and email address though!**
