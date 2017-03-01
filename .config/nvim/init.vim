@@ -25,6 +25,8 @@ Plug 'tpope/vim-cucumber'
 Plug 'vim-ruby/vim-ruby'
 Plug 'keith/rspec.vim'
 Plug 'tpope/vim-endwise'
+" wrappers
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
@@ -86,6 +88,7 @@ let g:EasyMotion_smartcase = 1
 map / <Plug>(easymotion-sn)
 omap / <Plug>(easymotion-tn)
 map <C-c> :CtrlPTag<cr>
+map <C-w> :bd<cr>
 
 map n <Plug>(easymotion-next)
 
