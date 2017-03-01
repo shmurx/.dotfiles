@@ -18,6 +18,10 @@ then
   ln -s ~/dotfiles/.config/i3/ ~/.config/
   ln -s ~/dotfiles/.config/i3status/ ~/.config/
 
+  echo "symlink rofi config"
+  rm -rf ~/.config/rofi
+  ln -s ~/dotfiles/.config/rofi/ ~/.config/
+
   echo "symlink tmuxinator projects..."
   rm -rf ~/.tmuxinator
   ln -s ~/dotfiles/.tmuxinator/ ~/
