@@ -9,6 +9,7 @@ tartup_window: editor
 windows:
   - nvim: nvim
   - tests: geordi tests
+  - cli: fish
   - repl:
       layout: even-horizontal
       panes:

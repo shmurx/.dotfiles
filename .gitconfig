@@ -31,6 +31,3 @@
   excludesfile = /home/magnus/.gitignore
 [push]
   default = current
-[pull]
-[core]
-  excludesfile = /home/your_name/.gitignore
