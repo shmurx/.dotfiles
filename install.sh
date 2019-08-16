@@ -4,10 +4,6 @@ if [[ $REPLY =~ ^[Yy]$ ]]
 then
 
   echo
-  echo "symlink nvim config..."
-  rm -rf ~/.config/nvim
-  ln -s ~/dotfiles/.config/nvim/ ~/.config/
-
   echo "symlink fish config..."
   rm -rf ~/.config/fish
   ln -s ~/dotfiles/.config/fish/ ~/.config/
@@ -37,8 +33,5 @@ then
   echo "setup tmux..."
   rm ~/.tmux.conf
   cp .tmux.conf ~/.tmux.conf
-
-  echo "Improve Bundle installs..."
-  cp .gemrc ~/.gemrc
 
 fi

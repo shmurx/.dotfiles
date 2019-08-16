@@ -20,6 +20,7 @@ terminal mutliplexer|tmux
 
 - use GNU Stow
 - use polybar
+- integrate vscode dotfiles
 
 ## Checklist
 
