@@ -1,0 +1,21 @@
+{
+    "editor.renderWhitespace": "none",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.colorTheme": "Night Owl (No Italics)",
+    "breadcrumbs.enabled": true,
+    "editor.minimap.enabled": true,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'Fira Mono for Powerline','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "workbench.iconTheme": null,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontLigatures": true,
+    "window.menuBarVisibility": "toggle",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "window.zoomLevel": 0
+}

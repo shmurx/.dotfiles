@@ -34,4 +34,21 @@ then
   rm ~/.tmux.conf
   cp .tmux.conf ~/.tmux.conf
 
+  echo "symlink dunst config..."
+  rm -rf ~/.config/dunst/
+  ln -s ~/dotfiles/.config/dunst ~/.config/
+
+  echo "install vscode extensions..."
+  code --install-extension dbaeumer.vscode-eslint
+  code --install-extension eamodio.gitlens
+  code --install-extension esbenp.prettier-vscode
+  code --install-extension sdras.night-owl
+  code --install-extension vscodevim.vim
+
+  echo "symlink vscode config..."
+  rm -rf ~/.config/Code/User/snippets/
+  rm ~/.config/Code/User/settings.json
+  ln -s ~/dotfiles/.config/Code/User/snippets/ ~/.config/Code/User/
+  ln -s ~/dotfiles/.config/Code/User/settings.json ~/.config/Code/User/settings.json
+
 fi
