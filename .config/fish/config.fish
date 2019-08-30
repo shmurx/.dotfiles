@@ -12,3 +12,10 @@ source $OMF_PATH/init.fish
 function fish_greeting
   fortune
 end
+
+set -gx GOPATH "/home/magnus/go"
+
+# alias
+alias "gp"="git pull"
+alias "push"="git push"
+alias "log"="tig"
