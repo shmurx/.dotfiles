@@ -3,6 +3,8 @@
 **Dotfiles** help me keep my configuration files in one place, so if I change hardware, my config stays same.
 Note that these configurations and checklist are for Ubuntu.
 
+![screenshot](./screenshot.png)
+
 Current setup:
 
 purpose|tool
@@ -28,12 +30,12 @@ editor|vscode
 
 - Clone this repository to `~/dotfiles`
 - Install these tools:
-  - fish, git, i3, rxvt, tmux, tmuxinator, feh, scrot, compton, rofi, dunst (`sudo apt-get install fish git-core i3 rxvt-unicode-256color tmux tmuxinator feh scrot compton rofi dunst`)
+  - fish, git, rxvt, tmux, tmuxinator, feh, scrot, compton, rofi, dunst (`sudo apt-get install fish git-core rxvt-unicode-256color tmux tmuxinator feh scrot compton rofi dunst`)
 - Download, compile and install
   [i3gaps](https://github.com/Airblader/i3/wiki/Compiling-&-Installing)
 - Install [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish/) (`curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish`)
-- Install [Powerline Compatible Fonts](https://github.com/powerline/fonts)
-- for some extra ricing, install vtop, cava, neofetch and take a look at [rizonrice](https://rizonrice.github.io/resources)
+- Install [Powerline Compatible Fonts](https://github.com/powerline/fonts) as well as [Dank Mono](https://dank.sh/)
+- for some extra ricing, install gotop, cava, neofetch and take a look at [rizonrice](https://rizonrice.github.io/resources)
 
 ### 2. Secure Git(Hub) access
 
