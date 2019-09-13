@@ -39,11 +39,14 @@ then
   ln -s ~/dotfiles/.config/dunst ~/.config/
 
   echo "install vscode extensions..."
+  code --install-extension CoenraadS.bracket-pair-colorizer-2
   code --install-extension dbaeumer.vscode-eslint
   code --install-extension eamodio.gitlens
   code --install-extension esbenp.prettier-vscode
+  code --install-extension pnp.polacode
   code --install-extension sdras.night-owl
   code --install-extension vscodevim.vim
+  code --install-extension xabikos.JavaScriptSnippets
 
   echo "symlink vscode config..."
   rm -rf ~/.config/Code/User/snippets/
