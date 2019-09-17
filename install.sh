@@ -18,10 +18,6 @@ then
   rm -rf ~/.config/rofi
   ln -s ~/dotfiles/.config/rofi/ ~/.config/
 
-  echo "symlink tmuxinator projects..."
-  rm -rf ~/.tmuxinator
-  ln -s ~/dotfiles/.tmuxinator/ ~/
-
   echo "setup your git config..."
   rm ~/.gitconfig
   cp .gitconfig ~/.gitconfig
