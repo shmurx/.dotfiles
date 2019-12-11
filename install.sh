@@ -42,7 +42,9 @@ then
   code --install-extension pnp.polacode
   code --install-extension sdras.night-owl
   code --install-extension vscodevim.vim
+  code --install-extension wix.vscode-import-cost
   code --install-extension xabikos.JavaScriptSnippets
+  code --install-extension Yummygum.city-lights-icon-vsc
 
   echo "symlink vscode config..."
   rm -rf ~/.config/Code/User/snippets/

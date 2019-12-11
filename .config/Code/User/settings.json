@@ -8,13 +8,12 @@
     "editor.minimap.enabled": true,
     "editor.fontSize": 18,
     "editor.fontFamily": "'Dank Mono','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "workbench.iconTheme": null,
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "window.menuBarVisibility": "toggle",
     "[javascriptreact]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "window.zoomLevel": 0,
     "editor.fontLigatures": true,
@@ -23,5 +22,7 @@
     "vim.easymotionMarkerFontFamily": "Roboto Mono",
     "files.insertFinalNewline": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "city-lights-icons-vsc",
+    "explorer.confirmDragAndDrop": false
 }
