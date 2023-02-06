@@ -26,6 +26,10 @@ then
   rm -rf ~/.config/dunst/
   ln -s ~/dotfiles/.config/dunst ~/.config/
 
+  echo "symlink alacritty config..."
+  rm -rf ~/.config/alacritty/
+  ln -s ~/dotfiles/.config/alacritty ~/.config/
+
   echo "symlink polybar config..."
   rm -rf ~/.config/polybar/
   ln -s ~/dotfiles/.config/polybar ~/.config/
