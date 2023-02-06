@@ -3,26 +3,25 @@
 **Dotfiles** help me keep my configuration files in one place, so if I change hardware, my config stays same.
 Note that these configurations and checklist are for Ubuntu.
 
-![screenshot](./screenshot.png)
+![screenshot](./screenshot.jpeg)
 
 Current setup:
 
 purpose|tool
 -----|-----
-OS|Ubuntu 16.04
-shell|fish with omf
-WM|i3-gaps
-compositor|compton
+OS|Ubuntu 22.04.1 LTS
+shell|zsh with oh-my-zsh
+WM|bspwm
+bar|polybar
 launcher|rofi
 notifications|dunst
-terminal|URxvt
-terminal mutliplexer|tmux
+terminal|alacritty
 editor|vscode
 
 ## To Do
 
+- check out hyprland
 - use GNU Stow
-- use polybar
 
 ## Checklist
 
@@ -30,12 +29,9 @@ editor|vscode
 
 - Clone this repository to `~/dotfiles`
 - Install these tools:
-  - fish, git, rxvt, tmux, tmuxinator, feh, scrot, compton, rofi, dunst (`sudo apt-get install fish git-core rxvt-unicode-256color tmux tmuxinator feh scrot compton rofi dunst`)
-- Download, compile and install
-  [i3gaps](https://github.com/Airblader/i3/wiki/Compiling-&-Installing)
-- Install [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish/) (`curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish`)
+  - zsh, git, bspwm, feh, scrot, rofi, dunst, polybar (`sudo apt-get install zsh git-core scrot rofi dunst bspwm polybar`)
+- Install [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) (`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`)
 - Install [Powerline Compatible Fonts](https://github.com/powerline/fonts) as well as [Dank Mono](https://dank.sh/)
-- for some extra ricing, install gotop, cava, neofetch and take a look at [rizonrice](https://rizonrice.github.io/resources)
 
 ### 2. Secure Git(Hub) access
 
@@ -44,7 +40,7 @@ editor|vscode
 
 ### 3. Setup vscode
 
-- `install.sh` will automatically setup settings and install plugins
+- extensions and settings are synced via github account
 
 ### 4. Useful snippets
 

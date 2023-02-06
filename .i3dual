@@ -1,4 +1,0 @@
-#!/bin/bash
-xrandr | grep -q DP-1-1-2 && xrandr --output DP-1-1-2 --auto --right-of eDP-1
-xrandr | grep -q DP-1-1-1 && xrandr --output DP-1-1-1 --auto --right-of DP-1-1-2
-xrandr | grep -q DP-1-1-3 && xrandr --output DP-1-1-3 --auto --right-of DP-1-1-1

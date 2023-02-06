@@ -4,52 +4,30 @@ if [[ $REPLY =~ ^[Yy]$ ]]
 then
 
   echo
-  echo "symlink fish config..."
-  rm -rf ~/.config/fish
-  ln -s ~/dotfiles/.config/fish/ ~/.config/
-
-  echo "symlink i3..."
-  rm -rf ~/.config/i3
-  rm -rf ~/.config/i3status
-  ln -s ~/dotfiles/.config/i3/ ~/.config/
-  ln -s ~/dotfiles/.config/i3status/ ~/.config/
-
   echo "symlink rofi config"
   rm -rf ~/.config/rofi
   ln -s ~/dotfiles/.config/rofi/ ~/.config/
 
-  echo "setup your git config..."
+  echo "setup git config..."
   rm ~/.gitconfig
   cp .gitconfig ~/.gitconfig
 
-  echo "setup your URxvt config..."
-  rm ~/.Xdefaults
-  cp .Xdefaults ~/.Xdefaults
+  echo "setup zsh..."
+  rm ~/.zshrc
+  cp .zshrc ~/.zshrc
 
-  echo "setup tmux..."
-  rm ~/.tmux.conf
-  cp .tmux.conf ~/.tmux.conf
+  echo "symlink bspwm config..."
+  rm -rf ~/.config/sxhkd/
+  ln -s ~/dotfiles/.config/sxhkd ~/.config/
+  rm -rf ~/.config/bspwm/
+  ln -s ~/dotfiles/.config/bspwm ~/.config/
 
   echo "symlink dunst config..."
   rm -rf ~/.config/dunst/
   ln -s ~/dotfiles/.config/dunst ~/.config/
 
-  echo "install vscode extensions..."
-  code --install-extension CoenraadS.bracket-pair-colorizer-2
-  code --install-extension dbaeumer.vscode-eslint
-  code --install-extension eamodio.gitlens
-  code --install-extension esbenp.prettier-vscode
-  code --install-extension pnp.polacode
-  code --install-extension sdras.night-owl
-  code --install-extension vscodevim.vim
-  code --install-extension wix.vscode-import-cost
-  code --install-extension xabikos.JavaScriptSnippets
-  code --install-extension Yummygum.city-lights-icon-vsc
-
-  echo "symlink vscode config..."
-  rm -rf ~/.config/Code/User/snippets/
-  rm ~/.config/Code/User/settings.json
-  ln -s ~/dotfiles/.config/Code/User/snippets/ ~/.config/Code/User/
-  ln -s ~/dotfiles/.config/Code/User/settings.json ~/.config/Code/User/settings.json
+  echo "symlink polybar config..."
+  rm -rf ~/.config/polybar/
+  ln -s ~/dotfiles/.config/polybar ~/.config/
 
 fi
