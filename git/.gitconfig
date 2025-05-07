@@ -27,7 +27,7 @@
 
 [core]
   whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
-  editor=nvim
+  editor=vim
   excludesfile = /home/magnus/.gitignore
 [push]
   default = current
