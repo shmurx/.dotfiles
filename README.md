@@ -1,4 +1,3 @@
-
 # 🌱 My Arch Linux Dotfiles
 
 This repository contains my configuration files and setup instructions for reproducing my Arch Linux environment.

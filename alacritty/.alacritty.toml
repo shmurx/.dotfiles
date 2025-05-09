@@ -5,8 +5,8 @@ import = [
   # uncomment the flavour you want below:
   # "~/.config/alacritty/catppuccin-latte.toml"
   # "~/.config/alacritty/catppuccin-frappe.toml"
-  # "~/.config/alacritty/catppuccin-macchiato.toml"
-  "~/.config/alacritty/catppuccin-mocha.toml"
+  "~/.config/alacritty/catppuccin-macchiato.toml"
+  # "~/.config/alacritty/catppuccin-mocha.toml"
 ]
 
 [env]
@@ -39,13 +39,11 @@ render_timer = false
 [font]
 # AppleFontSmoothing = true
 size = 18.0
+normal = { family = "BlexMono Nerd Font" }
 
 [font.glyph_offset]
 x = 0
 y = 0
-
-[font.normal]
-family = "BlexMono Nerd Font"
 
 [font.offset]
 x = 0
