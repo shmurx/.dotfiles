@@ -1,4 +1,6 @@
 {
     "editor.tabSize": 2,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "editor.fontFamily": "'BlexMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
+    "workbench.colorTheme": "Catppuccin Mocha"
 }

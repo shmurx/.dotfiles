@@ -94,6 +94,7 @@ supertux
 sushi
 tecla
 totem
+ttf-ibmplex-mono-nerd
 vim
 vlc
 vulkan-intel
