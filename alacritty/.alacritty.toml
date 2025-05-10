@@ -65,13 +65,16 @@ save_to_clipboard = false
 semantic_escape_chars = ",│`|:\"' ()[]{}<>"
 
 [window]
-dimensions = { columns = 120, lines = 40 }
+dimensions = { columns = 100, lines = 25 }
 decorations = "full"
 dynamic_padding = false
-dynamic_title = true
+dynamic_title = false 
 opacity = 1.0
 startup_mode = "Windowed"
 
 [window.padding]
 x = 4
 y = 4
+
+[terminal.shell]
+program = "tmux"
