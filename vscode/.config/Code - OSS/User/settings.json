@@ -2,6 +2,7 @@
     "editor.tabSize": 2,
     "git.enableSmartCommit": true,
     "editor.fontFamily": "'BlexMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
-    "workbench.colorTheme": "Catppuccin Macchiato",
-    "editor.fontSize": 18
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "editor.fontSize": 18,
+    "workbench.settings.applyToAllProfiles": []
 }
