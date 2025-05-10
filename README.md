@@ -104,7 +104,7 @@ git clone https://github.com/shmurx/dotfiles.git
 We use a **custom package list** from this repo while keeping everything else interactive:
 
 ```bash
-archinstall --config dotfiles/config.json
+archinstall --config .dotfiles/archinstall_config.json
 ```
 
 ✅ This will automatically install:
@@ -132,8 +132,8 @@ Once Arch is installed and you reboot into your new system:
 ### 1️⃣ Clone the dotfiles repository
 
 ```bash
-git clone https://github.com/shmurx/dotfiles.git ~/dotfiles
-cd ~/dotfiles
+git clone https://github.com/shmurx/.dotfiles.git ~/.dotfiles
+cd ~/.dotfiles
 ```
 
 ---
@@ -148,12 +148,21 @@ sudo pacman -S stow
 
 ### 3️⃣ Apply dotfiles using `stow`
 
-Inside the `~/dotfiles` directory:
+Inside the `~/.dotfiles` directory:
 
 ```bash
+make all
+```
+
+Or, link just the configurations you want:
+
+```bash
+# initialize submodules containing themes etc.
+git submodule init
+git submodule update
+
 stow bash
 stow nvim
-# Add more stow commands for each config directory or file
 ```
 
 This will symlink the configs into the appropriate locations.
