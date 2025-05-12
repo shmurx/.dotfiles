@@ -65,7 +65,7 @@ save_to_clipboard = false
 semantic_escape_chars = ",│`|:\"' ()[]{}<>"
 
 [window]
-dimensions = { columns = 100, lines = 25 }
+dimensions = { columns = 100, lines = 28 }
 decorations = "full"
 dynamic_padding = false
 dynamic_title = false 
