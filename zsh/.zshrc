@@ -100,3 +100,31 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 bindkey -v
+
+# add cargo toolchain to path
+export PATH="/home/magnus/.cargo/bin:$PATH"
+
+# update mirrors when travelling
+function update-mirrors() {
+  local country="$1"
+
+  if [[ -z "$country" ]]; then
+    echo "Usage: update-mirrors <COUNTRY_CODE>"
+    echo "Example: update-mirrors DE"
+    return 1
+  fi
+
+  echo "Fetching and ranking mirrors for country: $country..."
+
+  curl -s "https://archlinux.org/mirrorlist/?country=${country}&protocol=https&use_mirror_status=on" \
+    | sed 's/^#Server/Server/' \
+    | rankmirrors -n 10 - \
+    | sudo tee /etc/pacman.d/mirrorlist > /dev/null
+
+  if [[ $? -eq 0 ]]; then
+    echo "✅ Mirrorlist updated successfully with top 10 mirrors from $country."
+  else
+    echo "❌ Failed to update mirrorlist."
+  fi
+}
+
