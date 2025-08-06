@@ -18,6 +18,7 @@ evince
 fastfetch
 firefox
 gdm
+gimp
 git
 gnome-backgrounds
 gnome-calculator
