@@ -99,6 +99,14 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ls="lsd -a"
+alias tig="lazygit"
+alias gs="git status"
+alias gd="git diff"
+alias ga="git add ."
+alias gc="git commit -am"
+
+# vim mode
 bindkey -v
 
 # add cargo toolchain to path

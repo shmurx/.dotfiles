@@ -22,6 +22,7 @@ firefox
 gdm
 gimp
 git
+git-delta
 git-filter-repo
 gnome-backgrounds
 gnome-calculator
@@ -73,6 +74,7 @@ intel-media-driver
 iwd
 jq
 laptop-mode-tools
+lazygit
 less
 libmpeg2
 libpulse
@@ -81,6 +83,7 @@ linux-firmware
 linux-zen
 linux-zen-headers
 loupe
+lsd
 malcontent
 mullvad-vpn
 nano
@@ -115,7 +118,6 @@ supertux
 supertuxkart
 sushi
 tecla
-tig
 tmux
 totem
 ttf-ibmplex-mono-nerd
