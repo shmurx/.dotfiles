@@ -1,13 +1,29 @@
 {
+    "breadcrumbs.enabled": true,
     "editor.bracketPairColorization.enabled": true,
+    "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.fontFamily": "'Cascadia Code','BlexMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
-    "explorer.compactFolders": false,
-    "editor.minimap.enabled": false,
+    "editor.fontLigatures": true,
     "editor.fontSize": 18,
-    "editor.guides.bracketPairs":"active",
+    "editor.formatOnSave": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
     "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "onFocusChange",
+    "git.autofetch": true,
     "git.enableSmartCommit": true,
+    "vim.hlsearch": true,
+    "vim.useCtrlKeys": true,
+    "vim.useSystemClipboard": true,
     "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.editor.enablePreview": false,
     "workbench.settings.applyToAllProfiles": [],
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
