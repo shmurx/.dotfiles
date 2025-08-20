@@ -1,0 +1,13 @@
+{
+    "editor.bracketPairColorization.enabled": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontFamily": "'Cascadia Code','BlexMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
+    "explorer.compactFolders": false,
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 18,
+    "editor.guides.bracketPairs":"active",
+    "editor.tabSize": 2,
+    "git.enableSmartCommit": true,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.settings.applyToAllProfiles": [],
+}
