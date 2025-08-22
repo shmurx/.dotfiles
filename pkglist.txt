@@ -9,7 +9,6 @@ btop
 calibre
 chromium
 clight
-discord
 dnsmasq
 dosfstools
 edk2-ovmf
@@ -21,9 +20,12 @@ fastfetch
 firefox
 gdm
 gimp
+gimp-plugin-gmic
+gimp-plugin-resynthesizer
 git
 git-delta
 git-filter-repo
+gmic
 gnome-backgrounds
 gnome-calculator
 gnome-calendar
@@ -72,6 +74,7 @@ gvfs-wsdd
 htop
 intel-media-driver
 iwd
+jdk21-openjdk
 jq
 laptop-mode-tools
 lazygit
@@ -102,6 +105,7 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 plymouth
+polymc
 power-profiles-daemon
 python-pyqt5
 qbittorrent
@@ -111,6 +115,7 @@ rygel
 simple-scan
 smartmontools
 snapshot
+spicetify-cli
 spotify
 steam
 stow
@@ -122,6 +127,7 @@ tmux
 totem
 ttf-ibmplex-mono-nerd
 vde2
+vencord
 vim
 virt-manager
 visual-studio-code-bin
@@ -137,6 +143,7 @@ wine
 wireless_tools
 wireplumber
 wl-clipboard
+woff2-cascadia-code
 xdg-desktop-portal-gnome
 xdg-user-dirs-gtk
 xdg-utils
