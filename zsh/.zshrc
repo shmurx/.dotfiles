@@ -136,4 +136,6 @@ function update-mirrors() {
   fi
 }
 
-source /usr/share/nvm/init-nvm.sh
+# atuin
+eval "$(atuin init zsh)"
+trap 'atuin sync >/dev/null 2>&1 &' EXIT
