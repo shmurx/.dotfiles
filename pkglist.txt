@@ -19,3 +19,4 @@ ttf-ibmplex-mono-nerd
 vencord
 visual-studio-code-bin
 wl-clipboard
+woff2-cascadia-cod
