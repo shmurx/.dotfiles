@@ -4,15 +4,12 @@
 [submodule "alacritty/.config/alacritty/catppuccin"]
 	path = alacritty/.config/alacritty/catppuccin
 	url = https://github.com/catppuccin/alacritty.git
-[submodule "spicetify/.config/spicetify/Themes"]
-	path = spicetify/.config/spicetify/Themes
-	url = https://github.com/catppuccin/spicetify.git
-[submodule "alacritty/.config/alacritty/themes"]
-	path = alacritty/.config/alacritty/themes
-	url = git@github.com:alacritty/alacritty-theme.git
 [submodule "tmux/.config/tmux/plugins/gruvbox"]
 	path = tmux/.config/tmux/plugins/gruvbox
 	url = git@github.com:egel/tmux-gruvbox.git
 [submodule "tmux/.config/tmux/plugins/tpm"]
 	path = tmux/.config/tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
+[submodule "alacritty/.config/alacritty/gruvbox"]
+	path = alacritty/.config/alacritty/gruvbox
+	url = git@github.com:alacritty/alacritty-theme.git
