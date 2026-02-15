@@ -13,3 +13,6 @@
 [submodule "alacritty/.config/alacritty/gruvbox"]
 	path = alacritty/.config/alacritty/gruvbox
 	url = git@github.com:alacritty/alacritty-theme.git
+[submodule "spicetify/.config/spicetify/Themes/Gruvify"]
+	path = spicetify/.config/spicetify/Themes/Gruvify
+	url = https://github.com/Skaytacium/Gruvify
