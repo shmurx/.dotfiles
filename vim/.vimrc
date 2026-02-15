@@ -27,9 +27,11 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree'
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+Plug 'morhetz/gruvbox'
 Plug 'preservim/nerdcommenter'
 call plug#end()
 
-colorscheme catppuccin_mocha
+set background=dark
+colorscheme gruvbox
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'catppuccin_mocha'
+let g:airline_theme = 'gruvbox'

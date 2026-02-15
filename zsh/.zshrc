@@ -76,6 +76,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# this is needed for winit apps to not be blurry on high-DPI screens
+export WINIT_X11_SCALE_FACTOR=1
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -139,3 +142,6 @@ function update-mirrors() {
 # atuin
 eval "$(atuin init zsh)"
 trap 'atuin sync >/dev/null 2>&1 &' EXIT
+
+# nvm
+source /usr/share/nvm/init-nvm.sh

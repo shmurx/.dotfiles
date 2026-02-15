@@ -20,11 +20,13 @@
   "vim.hlsearch": true,
   "vim.useCtrlKeys": true,
   "vim.useSystemClipboard": true,
-  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.editor.enablePreview": false,
   "workbench.settings.applyToAllProfiles": [],
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "workbench.iconTheme": "vs-minimal",
+  "github.copilot.nextEditSuggestions.enabled": true
 }
