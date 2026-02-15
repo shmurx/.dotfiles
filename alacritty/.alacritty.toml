@@ -40,7 +40,7 @@ render_timer = false
 [font]
 # AppleFontSmoothing = true
 size = 16.0
-normal = { family = "BlexMono Nerd Font" }
+normal = { family = "Cascadia Code" }
 
 [font.glyph_offset]
 x = 0
