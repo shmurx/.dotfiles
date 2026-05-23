@@ -16,3 +16,6 @@
 [submodule "spicetify/.config/spicetify/Themes/Gruvify"]
 	path = spicetify/.config/spicetify/Themes/Gruvify
 	url = https://github.com/Skaytacium/Gruvify
+[submodule "nvim/.config/nvim"]
+	path = nvim/.config/nvim
+	url = https://github.com/LazyVim/starter.git

@@ -28,5 +28,6 @@
   },
   "git.confirmSync": false,
   "workbench.iconTheme": "vs-minimal",
-  "github.copilot.nextEditSuggestions.enabled": true
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "claudeCode.preferredLocation": "panel"
 }
